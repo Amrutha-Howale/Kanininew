@@ -1,0 +1,36 @@
+1. items:
+
+item id(p), name, cust id(f)
+
+2. customer:
+
+cust id(p), cust name, age, email
+
+3. Rakhi :
+
+customer id(f), Rakhi type(p), quantity, price
+
+4. cakes:
+
+customer id(f), cake type(p), flavour, quantity, price
+
+5. flowers:
+
+cust id(f), flower name(p), color, quantity, price
+
+6. plants:
+
+plants type(p), plant price, quantity, cust id(f)
+
+7. anniversary:
+
+gift type(p), cust id(f), quantity, price
+
+8. order:
+
+order id(p), item id(f), quantity, price, cust name
+
+9. billing:
+
+bill id(p), order id(f), adreess, total price, cust name
+
