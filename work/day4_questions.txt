@@ -1,0 +1,92 @@
+Team activity
+Also create tables and insert data
+Case 1: A Simple Case on ER Modelling
+•	Goal – to demonstrate how to build an E-R model from a simple Statement of Objectives of a movie store. ( given very clearly in statement forms)
+Scenario:
+•	A video store rents movies to members.
+•	Each movie in the store has a title and is identified by a unique movie number.
+•	A movie can be in VHS, VCD, or DVD format.
+•	Each movie belongs to one of a given set of categories (action, adventure, comedy, ... )
+•	The store has a name and a (unique) phone number for each member.
+•	Each member may provide a favorite movie category (used for marketing purposes).
+•	There are two types of members: 
+o	Golden Members:
+o	Bronze Members:
+•	Using  their credit cards gold members can rent one or more movies and bronze members max. of one movie.  
+•	A member may have a number of dependents (with known names).
+•	Each dependent is allowed to rent one (1) movie at a time.
+ 
+
+
+Case 2:  ( A little more abstract case )
+Create an ER Diagram for a student registration system where the entities are Students, Instructors, Courses and Schedules. Consider all the possible pairings. (Given not in statements form, but in a summarized way)
+
+Assumptions:
+A student is taught by one or more Instructor
+A student joins only one course
+An Instructor  may teach any number of students
+An Instructor takes atleast one course
+A course will have only one schedule
+A course may have many students
+A course is taught by only one Instructor
+A schedule may be used for many courses 
+
+
+------------------------------------------------------------------
+(Indv work)
+USe northwind
+
+ 
+1) For each order, calculate a subtotal for each Order (identified by OrderID). 
+2)get the year part from Shipped_Date column. 
+3) For each employee, get their sales amount, broken down by country name.
+4) What does this query do?
+select distinct b.*, a.Category_Name
+from Categories a 
+inner join Products b on a.Category_ID = b.Category_ID
+where b.Discontinued = 'N'
+order by b.Product_Name;
+
+5) What is the diff between the query a and b
+a) select distinct a.CategoryID, 
+    a.CategoryName,  
+    b.ProductName, 
+    sum(round(y.UnitPrice * y.Quantity * (1 - y.Discount), 2)) as ProductSales
+from Order_Details y
+inner join Orders d on d.OrderID = y.OrderID
+inner join Products b on b.ProductID = y.ProductID
+inner join Categories a on a.CategoryID = b.CategoryID
+where d.OrderDate between date('1997/1/1') and date('1997/12/31')
+group by a.CategoryID, a.CategoryName, b.ProductName
+order by a.CategoryName, b.ProductName, ProductSales;
+b)     a.CategoryName, 
+    b.ProductName, 
+    sum(c.ExtendedPrice) as ProductSales
+from Categories a 
+inner join Products b on a.CategoryID = b.CategoryID
+inner join 
+(
+    select distinct y.OrderID, 
+        y.ProductID, 
+        x.ProductName, 
+        y.UnitPrice, 
+        y.Quantity, 
+        y.Discount, 
+        round(y.UnitPrice * y.Quantity * (1 - y.Discount), 2) as ExtendedPrice
+    from Products x
+    inner join Order_Details y on x.ProductID = y.ProductID
+    order by y.OrderID
+) c on c.ProductID = b.ProductID
+inner join Orders d on d.OrderID = c.OrderID
+where d.OrderDate between date('1997/1/1') and date('1997/12/31')
+group by a.CategoryID, a.CategoryName, b.ProductName
+order by a.CategoryName, b.ProductName, ProductSales;
+
+--------------------------------------------------------------------
+Self learning
+  (indv)Unions
+  (indv)Soundex
+  (indv)Cross Join
+  (group)
+Functions(pre defined function in SQL)- each team 
+5 numeric, 5 string and 5 date

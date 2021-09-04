@@ -1,0 +1,308 @@
+1) Create a program that will take a 16 digit number from user
+the card number
+4477 4683 4311 3002
+Reverse the number
+2003 1134 3864 7744
+Even position number multiply by 2
+2+0+0+6+1+2+3+8+3+16+6+8+7+14+4+8
+sum up the 2 digit numbers
+2+0+0+6+1+2+3+8+3+7+6+8+7+5+4+8
+70 % 10 = 0
+
+            int m = 0,sum=0;
+	    int c=0;
+            long[] CardNum = new long[50];
+            Console.WriteLine("Enter the 16 digit card number ");
+            for (int i = 0; i < CardNum.Length; i++)
+            {
+                CardNum[i] = long.Parse(Console.ReadLine());
+            }
+            for (int i = 0; i < CardNum.Length; i++)
+            {
+                Console.WriteLine(CardNum[i]);
+            }
+            Console.WriteLine("reverse of the entered digits is: ");
+            for (int i = CardNum.Length - 1; i < 0; i--)
+            {
+                Console.WriteLine(CardNum[i]);
+            }
+            Console.WriteLine("The even place digits mutlipied by 2 : ");
+            for (int i = CardNum.Length - 1; i >= 0; i--)
+            {
+                if (i % 2 == 0 || i == 0)
+                {
+                    CardNum[i] = CardNum[i] * 2;
+                    Console.Write(CardNum[i]);
+                }
+                else
+                {
+                    Console.Write(CardNum[i]);
+                }
+            }
+            Console.WriteLine("Sum of two digit Numbers present in array ");
+            for (int i = CardNum.Length - 1; i >= 0; i--)
+            {
+                if (i % 2 == 0 || i == 0)
+                {
+
+                    if (CardNum[i] >= 10)
+                    {
+                        m =(int)(CardNum[i] % 10);
+                        CardNum[i] = CardNum[i] / 10;
+                        CardNum[i] = CardNum[i] + m;
+                    }
+
+                }
+
+                Console.WriteLine(CardNum[i]);
+
+            }
+	 Console.WriteLine("total sum is");
+            for (int i = CardNum.Length - 1; i >= 0; i--)
+            {
+                sum = (int)(sum + CardNum[i]);
+            }
+            Console.WriteLine(sum);
+        }
+
+
+2) Take a minimum and a maximum number from user and print all the prime numbers between them.
+
+ void PrimeNumbersBetweenInverval()
+        {
+            int MinNum, MaxNum, i, j, flag;
+            Console.WriteLine("Enter lower bound of " +
+                              "the interval: ");
+            MinNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\nEnter upper bound of the interval: ");
+            MaxNum = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("\nPrime numbers between {0} and {1} are: ", MinNum, MaxNum);
+
+            for (i = MinNum; i <= MaxNum; i++)
+            {
+                if (i == 1 || i == 0)
+                    continue;
+
+                flag = 1;
+
+                for (j = 2; j <= i / 2; ++j)
+                {
+                    if (i % j == 0)
+                    {
+                        flag = 0;
+                        break;
+                    }
+                }
+
+                // flag = 1 means i is prime
+                // and flag = 0 means i is not prime
+                if (flag == 1)
+                    Console.WriteLine(i+" is a prime number");
+            }
+        }
+
+3) Take 11 numbers from user and find that one number which is not repeating
+example
+2,3,4,5,1,10,3,2,5,4,1
+10
+
+ void NonRepeating()
+        {
+            bool flag = false;
+            Console.WriteLine("Enter 11 numbers separate by ',' :");
+            string[] line = new string[11];
+            line = Console.ReadLine().Split(",");
+            int[] arr = new int[11];
+            for (int i = 0; i < 11; i++)
+            {
+                arr[i] = Convert.ToInt32(line[i]);
+            }
+            for (int i = 0; i < 11; i++)
+            {
+                flag = false;
+                for (int j = 0; j < 11; j++)
+                {
+                    if (arr[i] == arr[j] && i != j)
+                    {
+                        flag = true;
+                    }
+                }
+                if (!flag)
+                {
+                    Console.WriteLine($"Number which not repeat is: {arr[i]}");
+                }
+            }
+        }
+
+4) Take number from user until the user inserts a negative number.
+Sort and print all the values
+Find the median and mode(If no repeation then no mode)
+
+ void EvenandOddSort()
+        {
+            int i=0;
+            float median;
+            int[] Num3 = new int[30];  
+            Console.Write("Enter the Number of values to be Sort : "); 
+            int n = Convert.ToInt16(Console.ReadLine());
+            for (i = 1; i <= n;i++)
+            {
+                Console.Write("Enter the No " + i + ":");
+                Num3[i] = Convert.ToInt16(Console.ReadLine());
+                if (Num3[i] < 0)
+                    break;
+            }
+
+            for (i = 1; i <= n; i++)
+            {
+                for (int j = 1; j <= n - 1; j++)
+                {
+                    if (Num3[j] > Num3[j + 1])
+                    {
+                        int temp = Num3[j];
+                        Num3[j] = Num3[j + 1];
+                        Num3[j + 1] = temp;
+                    }
+                }
+            }
+            if(n%2==0)
+            {
+                median = (Num3[(n / 2) - 1] + Num3[(n / 2)]) / 2.0F;
+            }
+            else
+            {
+                median = Num3[(n / 2)];
+            }
+            //Display the Ascending values one by one  
+            Console.Write("The values obtained after Ascending Sort : ");
+            for (i = 1; i <= n; i++)
+            {
+                Console.Write(Num3[i] + " ");
+            }
+            Console.Write("Median of the array is " + median);
+            Console.ReadKey();
+        }
+
+5)https://www.hackerrank.com/challenges/maximum-element/problem
+
+class Solution {
+    static void Main(String[] args) {
+        int n = Int32.Parse(Console.ReadLine());
+        
+        Stack<int> stack = new Stack<int>();
+        Stack<int> max = new Stack<int>();
+        
+        for (int idx = 0; idx < n; idx++) {
+            string[] tokens = Console.ReadLine().Split(' ');
+            if (tokens[0].Equals("1")) {
+                int val = Int32.Parse(tokens[1]);
+                stack.Push(val);
+                
+                if (max.Count == 0 || val >= max.Peek()) {
+                    max.Push(val);
+                }
+            }
+            else if (tokens[0].Equals("2")) {
+                int val = stack.Pop();
+                if (max.Peek() == val) {
+                    max.Pop();
+                }
+            }
+            else if (tokens[0].Equals("3")) {
+                Console.WriteLine(max.Peek());
+            }
+        }
+    }
+}
+
+6) https://www.geeksforgeeks.org/find-if-there-is-a-subarray-with-0-sum/
+
+using System;
+using System.Collections.Generic;
+ 
+class GFG {
+    static bool SubArrayExists(int[] arr)
+    {
+        HashSet<int> hs = new HashSet<int>();
+        int sum = 0;
+ 
+        for (int i = 0; i < arr.Length; i++)
+        {
+            sum += arr[i];
+            if (arr[i] == 0
+                || sum == 0
+                || hs.Contains(sum))
+                return true;
+ 
+            hs.Add(sum);
+        }
+        return false;
+    }
+ 
+    public static void Main()
+    {
+        int[] arr = { -3, 2, 3, 1, 6 };
+        if (SubArrayExists(arr))
+            Console.WriteLine(
+                "Found a subarray with 0 sum");
+        else
+            Console.WriteLine("No Such Sub Array Exists!");
+    }
+}
+
+7) https://leetcode.com/explore/featured/card/fun-with-arrays/521/introduction/3237/
+
+void FindNumWithEvenNum()
+{
+	int[] num=new int[10];
+	int count = 0;
+	int res = 0;
+ 	for (int i = 0; i < num.Length; i++)
+            {
+                num[i] = Convert.ToInt32(Console.ReadLine());
+            }
+        for (int i = 0; i < num.Length; i++)
+        {
+            while(num[i] != 0)
+            {
+                count++;
+                num[i] = num[i] / 10;
+            }
+	    if(count % 2 == 0)
+		{
+		res++;
+		}
+	}
+	console.WriteLine(res);
+}	
+
+8) https://leetcode.com/explore/featured/card/fun-with-arrays/526/deleting-items-from-an-array/3248/
+
+void RemoveDuplicates()
+        {
+            int[] num = new int[10];
+            int n = num.Length;
+            for (int i = 0; i < n; i++)
+            {
+                num[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            if (n > 0)
+            {
+                int[] temp = new int[n];
+                int j = 0;
+                for (int i = 0; i < n - 1; i++)
+                {
+                    if (num[i] != num[i + 1])
+                    {
+                        temp[j++] = num[i];
+                    }
+                    temp[j++] = num[n - 1];
+                }
+                for (int i = 0; i < j; i++)
+                    num[i] = temp[i];
+                for (int i = 0; i < n; i++)
+                    Console.Write(num[i] + " ");
+            }
+        }
+

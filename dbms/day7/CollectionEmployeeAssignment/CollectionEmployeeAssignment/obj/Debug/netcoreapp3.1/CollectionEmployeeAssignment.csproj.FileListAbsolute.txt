@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\bin\Debug\netcoreapp3.1\CollectionEmployeeAssignment.exe
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\bin\Debug\netcoreapp3.1\CollectionEmployeeAssignment.deps.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\bin\Debug\netcoreapp3.1\CollectionEmployeeAssignment.runtimeconfig.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\bin\Debug\netcoreapp3.1\CollectionEmployeeAssignment.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\bin\Debug\netcoreapp3.1\CollectionEmployeeAssignment.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\bin\Debug\netcoreapp3.1\CollectionEmployeeAssignment.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\obj\Debug\netcoreapp3.1\CollectionEmployeeAssignment.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\obj\Debug\netcoreapp3.1\CollectionEmployeeAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\obj\Debug\netcoreapp3.1\CollectionEmployeeAssignment.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\obj\Debug\netcoreapp3.1\CollectionEmployeeAssignment.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\obj\Debug\netcoreapp3.1\CollectionEmployeeAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\obj\Debug\netcoreapp3.1\CollectionEmployeeAssignment.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\obj\Debug\netcoreapp3.1\CollectionEmployeeAssignment.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\CollectionEmployeeAssignment\CollectionEmployeeAssignment\obj\Debug\netcoreapp3.1\CollectionEmployeeAssignment.genruntimeconfig.cache

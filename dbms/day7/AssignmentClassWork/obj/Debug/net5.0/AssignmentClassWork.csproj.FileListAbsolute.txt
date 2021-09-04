@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\bin\Debug\net5.0\AssignmentClassWork.exe
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\bin\Debug\net5.0\AssignmentClassWork.deps.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\bin\Debug\net5.0\AssignmentClassWork.runtimeconfig.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\bin\Debug\net5.0\AssignmentClassWork.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\bin\Debug\net5.0\AssignmentClassWork.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\bin\Debug\net5.0\ref\AssignmentClassWork.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\bin\Debug\net5.0\AssignmentClassWork.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\obj\Debug\net5.0\AssignmentClassWork.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\obj\Debug\net5.0\AssignmentClassWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\obj\Debug\net5.0\AssignmentClassWork.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\obj\Debug\net5.0\AssignmentClassWork.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\obj\Debug\net5.0\AssignmentClassWork.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\obj\Debug\net5.0\AssignmentClassWork.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\obj\Debug\net5.0\ref\AssignmentClassWork.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\obj\Debug\net5.0\AssignmentClassWork.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\AssignmentClassWork\obj\Debug\net5.0\AssignmentClassWork.genruntimeconfig.cache

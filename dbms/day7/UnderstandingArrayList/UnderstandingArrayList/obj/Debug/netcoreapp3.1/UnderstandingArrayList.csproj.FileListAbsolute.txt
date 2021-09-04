@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\bin\Debug\netcoreapp3.1\UnderstandingArrayList.exe
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\bin\Debug\netcoreapp3.1\UnderstandingArrayList.deps.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\bin\Debug\netcoreapp3.1\UnderstandingArrayList.runtimeconfig.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\bin\Debug\netcoreapp3.1\UnderstandingArrayList.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\bin\Debug\netcoreapp3.1\UnderstandingArrayList.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\bin\Debug\netcoreapp3.1\UnderstandingArrayList.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\obj\Debug\netcoreapp3.1\UnderstandingArrayList.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\obj\Debug\netcoreapp3.1\UnderstandingArrayList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\obj\Debug\netcoreapp3.1\UnderstandingArrayList.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\obj\Debug\netcoreapp3.1\UnderstandingArrayList.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\obj\Debug\netcoreapp3.1\UnderstandingArrayList.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\obj\Debug\netcoreapp3.1\UnderstandingArrayList.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\obj\Debug\netcoreapp3.1\UnderstandingArrayList.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingArrayList\UnderstandingArrayList\obj\Debug\netcoreapp3.1\UnderstandingArrayList.genruntimeconfig.cache

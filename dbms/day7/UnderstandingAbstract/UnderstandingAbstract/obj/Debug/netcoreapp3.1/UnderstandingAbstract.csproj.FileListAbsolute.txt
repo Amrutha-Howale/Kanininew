@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\bin\Debug\netcoreapp3.1\UnderstandingAbstract.exe
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\bin\Debug\netcoreapp3.1\UnderstandingAbstract.deps.json
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\bin\Debug\netcoreapp3.1\UnderstandingAbstract.runtimeconfig.json
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\bin\Debug\netcoreapp3.1\UnderstandingAbstract.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\bin\Debug\netcoreapp3.1\UnderstandingAbstract.dll
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\bin\Debug\netcoreapp3.1\UnderstandingAbstract.pdb
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\obj\Debug\netcoreapp3.1\UnderstandingAbstract.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\obj\Debug\netcoreapp3.1\UnderstandingAbstract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\obj\Debug\netcoreapp3.1\UnderstandingAbstract.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\obj\Debug\netcoreapp3.1\UnderstandingAbstract.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\obj\Debug\netcoreapp3.1\UnderstandingAbstract.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\obj\Debug\netcoreapp3.1\UnderstandingAbstract.dll
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\obj\Debug\netcoreapp3.1\UnderstandingAbstract.pdb
+C:\Users\Administrator\source\repos\UnderstandingAbstract\UnderstandingAbstract\obj\Debug\netcoreapp3.1\UnderstandingAbstract.genruntimeconfig.cache

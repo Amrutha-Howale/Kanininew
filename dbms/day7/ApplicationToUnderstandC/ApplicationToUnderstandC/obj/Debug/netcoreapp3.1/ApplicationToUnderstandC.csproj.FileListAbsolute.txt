@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\bin\Debug\netcoreapp3.1\ApplicationToUnderstandC.exe
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\bin\Debug\netcoreapp3.1\ApplicationToUnderstandC.deps.json
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\bin\Debug\netcoreapp3.1\ApplicationToUnderstandC.runtimeconfig.json
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\bin\Debug\netcoreapp3.1\ApplicationToUnderstandC.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\bin\Debug\netcoreapp3.1\ApplicationToUnderstandC.dll
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\bin\Debug\netcoreapp3.1\ApplicationToUnderstandC.pdb
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\obj\Debug\netcoreapp3.1\ApplicationToUnderstandC.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\obj\Debug\netcoreapp3.1\ApplicationToUnderstandC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\obj\Debug\netcoreapp3.1\ApplicationToUnderstandC.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\obj\Debug\netcoreapp3.1\ApplicationToUnderstandC.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\obj\Debug\netcoreapp3.1\ApplicationToUnderstandC.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\obj\Debug\netcoreapp3.1\ApplicationToUnderstandC.dll
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\obj\Debug\netcoreapp3.1\ApplicationToUnderstandC.pdb
+C:\Users\Administrator\source\repos\ApplicationToUnderstandC\ApplicationToUnderstandC\obj\Debug\netcoreapp3.1\ApplicationToUnderstandC.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\bin\Debug\netcoreapp3.1\Week3Assignment.exe
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\bin\Debug\netcoreapp3.1\Week3Assignment.deps.json
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\bin\Debug\netcoreapp3.1\Week3Assignment.runtimeconfig.json
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\bin\Debug\netcoreapp3.1\Week3Assignment.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\bin\Debug\netcoreapp3.1\Week3Assignment.dll
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\bin\Debug\netcoreapp3.1\Week3Assignment.pdb
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\obj\Debug\netcoreapp3.1\Week3Assignment.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\obj\Debug\netcoreapp3.1\Week3Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\obj\Debug\netcoreapp3.1\Week3Assignment.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\obj\Debug\netcoreapp3.1\Week3Assignment.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\obj\Debug\netcoreapp3.1\Week3Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\obj\Debug\netcoreapp3.1\Week3Assignment.dll
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\obj\Debug\netcoreapp3.1\Week3Assignment.pdb
+C:\Users\Administrator\source\repos\Week3Assignment\Week3Assignment\obj\Debug\netcoreapp3.1\Week3Assignment.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>ApplicationToUnderstandC.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\switchApplication.cs" Link="switchApplication.cs" />
+  </ItemGroup>
+
+</Project>

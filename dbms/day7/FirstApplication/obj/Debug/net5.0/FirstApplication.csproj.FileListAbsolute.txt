@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\bin\Debug\net5.0\FirstApplication.exe
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\bin\Debug\net5.0\FirstApplication.deps.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\bin\Debug\net5.0\FirstApplication.runtimeconfig.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\bin\Debug\net5.0\FirstApplication.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\bin\Debug\net5.0\FirstApplication.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\bin\Debug\net5.0\ref\FirstApplication.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\bin\Debug\net5.0\FirstApplication.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\obj\Debug\net5.0\FirstApplication.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\obj\Debug\net5.0\FirstApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\obj\Debug\net5.0\FirstApplication.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\obj\Debug\net5.0\FirstApplication.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\obj\Debug\net5.0\FirstApplication.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\obj\Debug\net5.0\FirstApplication.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\obj\Debug\net5.0\ref\FirstApplication.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\obj\Debug\net5.0\FirstApplication.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\FirstApplication\obj\Debug\net5.0\FirstApplication.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\bin\Debug\net5.0\UnderstandingCSharpAppli.exe
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\bin\Debug\net5.0\UnderstandingCSharpAppli.deps.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\bin\Debug\net5.0\UnderstandingCSharpAppli.runtimeconfig.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\bin\Debug\net5.0\UnderstandingCSharpAppli.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\bin\Debug\net5.0\UnderstandingCSharpAppli.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\bin\Debug\net5.0\ref\UnderstandingCSharpAppli.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\bin\Debug\net5.0\UnderstandingCSharpAppli.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\obj\Debug\net5.0\UnderstandingCSharpAppli.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\obj\Debug\net5.0\UnderstandingCSharpAppli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\obj\Debug\net5.0\UnderstandingCSharpAppli.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\obj\Debug\net5.0\UnderstandingCSharpAppli.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\obj\Debug\net5.0\UnderstandingCSharpAppli.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\obj\Debug\net5.0\UnderstandingCSharpAppli.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\obj\Debug\net5.0\ref\UnderstandingCSharpAppli.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\obj\Debug\net5.0\UnderstandingCSharpAppli.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\UnderstandingCSharpAppli\obj\Debug\net5.0\UnderstandingCSharpAppli.genruntimeconfig.cache

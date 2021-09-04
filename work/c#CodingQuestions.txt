@@ -1,0 +1,152 @@
+1) Find longest sequence of zeros in binary representation of an integer.
+
+
+using System;
+// you can also use other imports, for example:
+// using System.Collections.Generic;
+
+// you can write to stdout for debugging purposes, e.g.
+// Console.WriteLine("this is a debug message");
+
+class Solution {
+    public int solution(int N) {
+        // write your code in C# 6.0 with .NET 4.5 (Mono)
+        int work = N;
+    while (work > 0 && (work & 1) == 0) {
+      work >>= 1;
+    }
+    work >>= 1;
+
+    int max = 0;
+    int zeros = 0;
+
+    while (work > 0) {
+      if ((work & 1) == 0) {
+        zeros++;
+      } else {
+        max = Math.Max(max, zeros);
+        zeros = 0;
+      }
+      work >>= 1;
+    }
+    return max;
+}
+}
+
+2) Rotate an array to the right by a given number of steps.
+
+using System;
+
+namespace ArrayShiftByRight
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] ArrayNum = new int[30];
+            
+            Console.WriteLine("enter the array length");
+            int MaxLengthOfArray = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter the array");
+            for (int i = 0; i < MaxLengthOfArray;i++)
+            {
+                ArrayNum[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            /*for (int i = 0; i < MaxLengthOfArrayi++)
+            {
+                Console.WriteLine(ArrayNum[i] + " ");
+            }*/
+            Console.WriteLine("enter the number of times rotation");
+            int k= Convert.ToInt32( Console.ReadLine());
+            for(int i = 0; i < k; i++)
+            {
+                int temp;
+                temp = ArrayNum[MaxLengthOfArray- 1];
+                for(int j = MaxLengthOfArray- 1; j > 0; j--)
+                {
+                    ArrayNum[j] = ArrayNum[j - 1];
+                }
+                ArrayNum[0] = temp;
+            }
+            for (int i = 0; i MaxLengthOfArrayi++)
+            {
+                Console.WriteLine(ArrayNum[i]+" ");
+            }
+        }
+    }
+}
+
+3)Find value that occurs in odd number of elements.
+
+bool flag;
+            
+            for (int i = 0; i < A.Length; i++)
+            {
+                flag = false;
+                for (int j = 0; j < A.Length -1; j++)
+                {
+                    if (A[i] == A[j] && i != j)
+                    {
+                        flag = true;
+                    }
+                }
+                if (!flag)
+                {
+                    return A[i];
+                }
+            }
+            return -1;
+        }
+
+OR 
+
+int res=A[0];
+        for(int i=1;i<A.Length;i++)
+        res=res^A[i];
+        return res;
+
+4)Find the missing element in a given permutation.
+
+
+using System;
+
+namespace PrimeMissingElement
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int result,sum=0;
+            for(int i=0;i<A.Length;i++)
+            {
+                sum = sum + A[i];
+            }
+            int n = A.Length + 1;
+            result = n * (n + 1) / 2;
+            int final = result - sum;
+            return final;
+        }
+    }
+}
+
+using System;
+// you can also use other imports, for example:
+// using System.Collections.Generic;
+
+// you can write to stdout for debugging purposes, e.g.
+// Console.WriteLine("this is a debug message");
+
+class Solution {
+    public int solution(int X, int Y, int D) {
+        // write your code in C# 6.0 with .NET 4.5 (Mono)
+        var distance = Y - X;
+                if (distance % D == 0)
+                {
+                    return distance / D;
+                }
+                else
+                {
+                    return distance / D + 1;
+                }
+    }
+}

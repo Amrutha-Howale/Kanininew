@@ -1,0 +1,14 @@
+* ToString method is inherited from the Object class which is used
+to get a string that represents the current object.
+* It can also apply on the Stack. 
+It returns a string which represents the current stack object.
+* Object obj=new object();
+  Console.WriteLine(obj.ToString);
+output: System.Object
+
+Override ToString:
+* The ToString can be overridden to return a string that represents the object instance.
+* ex: string obj=$"{this.name},{this.GetAge()},{this.height}";
+return obj;
+
+output: john,70,5.9

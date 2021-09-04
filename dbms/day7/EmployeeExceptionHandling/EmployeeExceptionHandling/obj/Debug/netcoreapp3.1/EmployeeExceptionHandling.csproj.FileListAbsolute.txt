@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\bin\Debug\netcoreapp3.1\EmployeeExceptionHandling.exe
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\bin\Debug\netcoreapp3.1\EmployeeExceptionHandling.deps.json
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\bin\Debug\netcoreapp3.1\EmployeeExceptionHandling.runtimeconfig.json
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\bin\Debug\netcoreapp3.1\EmployeeExceptionHandling.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\bin\Debug\netcoreapp3.1\EmployeeExceptionHandling.dll
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\bin\Debug\netcoreapp3.1\EmployeeExceptionHandling.pdb
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\obj\Debug\netcoreapp3.1\EmployeeExceptionHandling.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\obj\Debug\netcoreapp3.1\EmployeeExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\obj\Debug\netcoreapp3.1\EmployeeExceptionHandling.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\obj\Debug\netcoreapp3.1\EmployeeExceptionHandling.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\obj\Debug\netcoreapp3.1\EmployeeExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\obj\Debug\netcoreapp3.1\EmployeeExceptionHandling.dll
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\obj\Debug\netcoreapp3.1\EmployeeExceptionHandling.pdb
+C:\Users\Administrator\source\repos\EmployeeExceptionHandling\EmployeeExceptionHandling\obj\Debug\netcoreapp3.1\EmployeeExceptionHandling.genruntimeconfig.cache
