@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
 namespace CollectionEmployeeAssignment
 {
-    class Employee
+    /// <summary>
+    /// IComparable interface is used in employee class
+    /// </summary>
+    class Employee:IComparable<Employee>
     {
         int id, age;
         string name;
@@ -33,11 +37,32 @@ namespace CollectionEmployeeAssignment
             Console.WriteLine("Please enter the employee Salary");
             salary = Convert.ToDouble(Console.ReadLine());
         }
+        public override bool Equals(object obj)
+        {
+            Employee e1,e2;
+            e1 = this;
+            e2 = (Employee)obj;
+            if (e1.Id == e2.Id)
+                return true;
+            else
+                return false;
+
+        }
 
         public override string ToString()
         {
             return  "Employee ID :" +id + "\nName:" +name + "\nAge: " +age +
         "\nSalary: " +salary;
+        }
+
+        /// <summary>
+        /// ICpmarable operator is overloaded and compareTo is used to compair which other employees salary 
+        /// </summary>
+        /// <param name="other"></param>
+        /// <returns>sorted elmployee list according to salary</returns>
+        public int CompareTo(Employee other)
+        {
+            return this.salary.CompareTo(other.salary);
         }
 
         public int Id

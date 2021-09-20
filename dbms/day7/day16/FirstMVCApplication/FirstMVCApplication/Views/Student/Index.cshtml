@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model FirstMVCApplication.Models.Student
+
+@*<h1>Student view page</h1>
+<h2>
+    welcome @ViewBag.Name !!!!
+</h2>
+<h2>
+    From viewdata @ViewData["Username"]
+</h2>
+<hr/>
+<div>
+    <h1>View bag scores</h1>
+    <ul>
+        @foreach (var item in ViewBag.Scores)
+        {
+            <li>@item</li>
+        }
+    </ul>
+</div>
+
+<div>
+    <h1>View Data scores</h1>
+    <ul>
+        @foreach (var item in ((IEnumerable<int>)ViewData["Scores"]))
+        {
+            <li>@item</li>
+        }
+    </ul>
+</div>*@
+
+<div>
+    Student Id: @Model.Id
+    <br />
+    Student Name: @Model.Name
+    <br />
+    Student Age: @Model.Age
+</div>

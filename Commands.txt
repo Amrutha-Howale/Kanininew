@@ -1,0 +1,15 @@
+Data Source=KANINI-LTP-476\SQLSERVER2021ACH;Integrated Security=true;Initial catalog=dbCompanyEFCF
+
+Packages: Microsoft.EntityFrameworkCore.SqlServer
+	  Microsoft.EntityFrameworkCore.Tools
+
+Code first approach:
+in PM==  Scaffold-DbContext "Data Source=KANINI-LTP-476\SQLSERVER2021ACH;Integrated Security=true;Initial catalog=wordGameV1" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+Use database first approch Create a console application that will do the following. 
+Please enter the author name XXXXX (list the books by that author-
+ If no book is present say "Author yet to start" and ask the author Name again)
+ From the books Selecet a title ID (Take the title id and print all the sale details of that title) 
+Repeat until user chooses to exit
+
+git pull origin master --allow-unrelated-histories

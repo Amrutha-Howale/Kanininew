@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\bin\Debug\netcoreapp3.1\UnderstandingJavascript.exe
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\bin\Debug\netcoreapp3.1\UnderstandingJavascript.deps.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\bin\Debug\netcoreapp3.1\UnderstandingJavascript.runtimeconfig.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\bin\Debug\netcoreapp3.1\UnderstandingJavascript.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\bin\Debug\netcoreapp3.1\UnderstandingJavascript.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\bin\Debug\netcoreapp3.1\UnderstandingJavascript.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\obj\Debug\netcoreapp3.1\UnderstandingJavascript.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\obj\Debug\netcoreapp3.1\UnderstandingJavascript.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\obj\Debug\netcoreapp3.1\UnderstandingJavascript.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\obj\Debug\netcoreapp3.1\UnderstandingJavascript.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\obj\Debug\netcoreapp3.1\UnderstandingJavascript.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\obj\Debug\netcoreapp3.1\UnderstandingJavascript.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\obj\Debug\netcoreapp3.1\UnderstandingJavascript.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day15\UnderstandingJavascript\UnderstandingJavascript\obj\Debug\netcoreapp3.1\UnderstandingJavascript.genruntimeconfig.cache

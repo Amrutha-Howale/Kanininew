@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\obj\Debug\netcoreapp3.1\UnderstandingDelegate.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\obj\Debug\netcoreapp3.1\UnderstandingDelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\obj\Debug\netcoreapp3.1\UnderstandingDelegate.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\obj\Debug\netcoreapp3.1\UnderstandingDelegate.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\obj\Debug\netcoreapp3.1\UnderstandingDelegate.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\bin\Debug\netcoreapp3.1\UnderstandingDelegate.exe
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\bin\Debug\netcoreapp3.1\UnderstandingDelegate.deps.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\bin\Debug\netcoreapp3.1\UnderstandingDelegate.runtimeconfig.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\bin\Debug\netcoreapp3.1\UnderstandingDelegate.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\bin\Debug\netcoreapp3.1\UnderstandingDelegate.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\bin\Debug\netcoreapp3.1\UnderstandingDelegate.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\obj\Debug\netcoreapp3.1\UnderstandingDelegate.dll
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\obj\Debug\netcoreapp3.1\UnderstandingDelegate.pdb
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\Day13\UnderstandingDelegate\UnderstandingDelegate\obj\Debug\netcoreapp3.1\UnderstandingDelegate.genruntimeconfig.cache

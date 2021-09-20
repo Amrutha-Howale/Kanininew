@@ -1,0 +1,88 @@
+Pizza ordering system
+
+1. Login
+2. Register
+1
+Enter your username: abc@gmail.com
+Enter your password: abc123
+Welcome to the XYZ Pizza
+The following are the pizza that are available for ordering
+Number 	Name  	  	Price 		Type
+1      	XYZSpecial 	$20 		Spizy
+2      	XYZSpecial 	$25 		Cheezy
+3      	Margerrita 	$15 		Plain
+Enter the Pizza of your choice
+1
+You have selected XYZSpecial for	$20
+Do u want extra toppings?y/n
+y
+The folowing are teh toppings
+Number 	Name  	  	Price
+1	Olives		$2
+2	Tomoto		$5
+3	Onion		$4
+Select the topping
+1
+You have selected Olives for  $2 fo total $22
+Do u wnat one more toppings?y/n
+y
+The folowing are teh toppings
+Number 	Name  	  	Price
+1	Olives		$2
+2	Tomoto		$5
+3	Onion		$4
+Select the topping
+2
+You have selected Tomato $5 so total $27
+Do u wnat one more toppings?y/n
+n
+Do you want to select another pizza for this order?y/n
+y
+The following are the pizza that are available for ordering
+Number 	Name  	  	Price 		Type
+1      	XYZSpecial 	$20 		Spizy
+2      	XYZSpecial 	$25 		Cheezy
+3      	Margerrita 	$15 		Plain
+Enter the Pizza of your choice
+2
+You have selected XYZSpecial for $25
+Total $52
+Do u want extra toppings?y/n
+n
+Do you want to select another pizza for this order?y/n
+n
+Your order summary
+Pizza1
+1      	XYZSpecial 	$20 		Spizy
+Toppings
+1	Olives		$2
+2	Tomoto		$5
+Pizza2
+2      	XYZSpecial 	$25 		Cheezy
+Toppings
+Nothing
+Total price - $57
+Delivery cost - $0
+Note- delivery cost of $5 will be added for order less than $25
+Please confirm your order y/n?
+y
+The order will be delivered to address
+-------
+12,ABC Avenue
+XYZ-223334
+Please pay on delivery
+Thank you
+
+------------------------------------------------------------------------------------------
+Users: 
+	user_email(p),name,password,address,phone
+Pizza: 
+	Pizza_number(p),name,price,type 
+Toppings:
+	Topping_number(p),name,price 
+order : 
+	o_id(f),User_id(f),Totall,deliverharge,status
+orders_details:
+	item_number,o_id(f),Pizza_number(f) 
+Order_Item_Details:
+	item_number,topping_number

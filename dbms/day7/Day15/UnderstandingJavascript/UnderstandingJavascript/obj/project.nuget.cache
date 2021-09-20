@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AyZdkSjz0kLdQSNT2Yl35OCqGMSPRKkLmf6x/jD0rihiHFL+wgDc6nlwWxFBbBlZxXhqbMHE01giSzJvgJKEYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\kaniniday1\\dbms\\day7\\Day15\\UnderstandingJavascript\\UnderstandingJavascript\\UnderstandingJavascript.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\sonaranalyzer.csharp\\8.28.0.36354\\sonaranalyzer.csharp.8.28.0.36354.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CollectionEmployeeAssignment
 {
@@ -6,12 +7,8 @@ namespace CollectionEmployeeAssignment
     {
         static void Main(string[] args)
         {
-            Program program = new Program();
-            EmployeePromotion employeePromotion = new EmployeePromotion();
-            employeePromotion.EmployeePromotionList();
-            //employeePromotion.PrintEmployee();
-            //employeePromotion.PrintPostion();
-            employeePromotion.RemoveExcessMemory();
+            EmployeeDetailsCollection employee = new EmployeeDetailsCollection();
+            employee.EmployeeInformation();
             Console.ReadKey();
         }
     }

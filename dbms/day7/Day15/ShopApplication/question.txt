@@ -1,0 +1,62 @@
+You any online resource you want
+Create an application for user to shop
+Create the required tables for this application based on needs
+You must use code first approach to achieve the tables.
+Case 1:
+Display a menu
+1)	List All Items
+2)	Exit
+User selects 1
+I.	Item number : 101 
+a.	Product Name : XXX
+b.	Product Price : 12
+c.	Product available Quantity : 3
+II.	Item number : 102 
+a.	Product Name : YYY
+b.	Product Price : 15
+c.	Product available Quantity : 0
+III.	Item number : 103
+a.	Product Name : XYZ
+b.	Product Price : 20
+c.	Product available Quantity : 2
+Please select a product to buy
+1
+You have selected 
+I.	Item number : 101 
+a.	Product Name : XXX
+b.	Product Price : 12
+c.	Product available Quantity : 3
+Please enter the quantity
+2
+Your total amount is 24
+1)	List All Items
+2)	Exit
+
+											
+Case 2:
+Display a menu
+3)	List All Items
+4)	Exit
+User selects 1
+I.	Item number : 101 
+a.	Product Name : XXX
+b.	Product Price : 12
+c.	Product available Quantity : 3
+II.	Item number : 102 
+a.	Product Name : YYY
+b.	Product Price : 15
+c.	Product available Quantity : 0
+III.	Item number : 103
+a.	Product Name : XYZ
+b.	Product Price : 20
+c.	Product available Quantity : 2
+Please select a product to buy
+2
+You have selected 
+I.	Item number : 102 
+a.	Product Name : YYY
+b.	Product Price : 15
+c.	Product available Quantity : 0
+The product is out of stock sorry
+1)	List All Items
+2)	Exit

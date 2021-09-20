@@ -1,0 +1,49 @@
+HTML ELEMENTS:
+1) <html></html>: The <html> HTML element represents the root (top-level element) of an HTML document,
+	so it is also referred to as the root element. All other elements must be descendants of this element.
+2) <head></head>: The <head> HTML element contains machine-readable information (metadata) about the document,
+	 like its title, scripts, and style sheets.
+3) <link></link>: The <link> HTML element specifies relationships between the current document 
+	and an external resource. This element is most commonly used to link to CSS.
+4) <style></style>: The <style> HTML element contains style information for a document, or part of a document. 
+	It contains CSS, which is applied to the contents of the document containing the <style> element.
+5) <body></body>: The <body> HTML element represents the content of an HTML document. 
+	There can be only one <body> element in a document.
+6)<title></title>
+7)<footer></footer>
+8)<header></header>
+9)<h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+10)<nav>
+
+CSS STYLES:
+
+1)External CSS
+    ex:<link rel="stylesheet" href="mystyle.css">
+2)Internal CSS
+    ex: body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+</style>
+3)Inline CSS
+    ex:<h1 style="color:blue;text-align:center;">This is a heading</h1>
+
+styles:
+
+1) Background Color: <h1 style="background-color:DodgerBlue;">Hello World</h1>
+2) Text Color: <h1 style="color:Tomato;">Hello World</h1>
+3) background-image: body { background-image: url("paper.gif"); }
+4) border-width:  border-width: 5px; border-width: medium;
+5)  Margins: margin-top
+	     margin-right
+	     margin-bottom
+	     margin-left
+6) Padding: padding-top
+            padding-right
+	    padding-bottom
+	    padding-left
+   

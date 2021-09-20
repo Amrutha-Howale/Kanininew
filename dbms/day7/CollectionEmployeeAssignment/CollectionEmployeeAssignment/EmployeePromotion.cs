@@ -7,6 +7,9 @@ namespace CollectionEmployeeAssignment
     class EmployeePromotion
     {
         List<String> EmployeeNames = new List<String>();
+        /// <summary>
+        /// After taking a list and names are added in the list
+        /// </summary>
         public void EmployeePromotionList()
         {
             Console.WriteLine("Enter the Employee names");
@@ -18,6 +21,10 @@ namespace CollectionEmployeeAssignment
                 //PrintEmployee();
             }
         }
+        /// <summary>
+        /// prints the names of the employee in the list
+        /// 
+        /// </summary>
         public void PrintEmployee()
         {
             Console.WriteLine("after adding all employee");
@@ -34,8 +41,8 @@ namespace CollectionEmployeeAssignment
             {
                 if (EmpNames == EmployeeNames[i])
                 {
-                    //int index1 = EmployeeNames.IndexOf(EmployeeNames[i]);
-                    Console.WriteLine($"{EmployeeNames[i]} is in the position {i+1} for promotion");
+                    int index1 = EmployeeNames.IndexOf(EmployeeNames[i]);
+                    Console.WriteLine($"{EmployeeNames[i]} is in the position {index1+1} for promotion");
                 }
             }
         }
@@ -44,6 +51,16 @@ namespace CollectionEmployeeAssignment
             Console.WriteLine(" The Current Size of Collection " + EmployeeNames.Capacity);
             EmployeeNames.TrimExcess();
             Console.WriteLine(" The size after removing the extra space is" + EmployeeNames.Capacity);
+        }
+
+        public void AscendingOrderSorting()
+        {
+            EmployeeNames.Sort();
+            Console.WriteLine("promoted employee list:");
+            foreach (var item in EmployeeNames)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
