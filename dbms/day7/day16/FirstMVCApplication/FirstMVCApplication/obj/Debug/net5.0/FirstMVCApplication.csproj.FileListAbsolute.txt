@@ -108,3 +108,4 @@ C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\day16\FirstMVCApplication\Fi
 C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\day16\FirstMVCApplication\FirstMVCApplication\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\day16\FirstMVCApplication\FirstMVCApplication\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\day16\FirstMVCApplication\FirstMVCApplication\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Administrator\Desktop\kaniniday1\dbms\day7\day16\FirstMVCApplication\FirstMVCApplication\obj\Debug\net5.0\Razor\Views\Student\Create.cshtml.g.cs

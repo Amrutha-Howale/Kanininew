@@ -1,0 +1,47 @@
+﻿@model SecondNVCApplication.Models.Employee
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+
+<h4>Employee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        @using (Html.BeginForm("Edit", "Employee", FormMethod.Post))
+        {
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Name)
+                @Html.EditorFor(m => m.Name)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Age)
+                @Html.EditorFor(m => m.Age)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.DepartmentId)
+                @Html.EditorFor(m => m.DepartmentId)
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Edit" class="btn btn-primary" />
+            </div>
+         }
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+</body>
+</html>

@@ -9,6 +9,7 @@ namespace FirstMVCApplication.Controllers
 {
     public class StudentController : Controller
     {
+        static List<Student> students = new List<Student>();
         public IActionResult Index()
         {
             /*int[] score = { 100, 89, 97 };
@@ -16,17 +17,23 @@ namespace FirstMVCApplication.Controllers
             ViewData["Username"] = "userTim";
             ViewBag.Scores = score;
             ViewData["Scores"] = score;*/
-            Student student = new Student();
+            /*Student student = new Student();
             student.Id = 101;
             student.Name = "Tim";
             student.Age = 21;
-            ViewBag.Student = student;
-            return View(student);
+            ViewBag.Student = student;*/
+            return View(students);
         }
 
         public IActionResult Create()
         {
             return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Student student)
+        {
+            students.Add(student);
+            return RedirectToAction("Index");
         }
     }
 }

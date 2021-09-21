@@ -4,7 +4,7 @@
 @{
 }
 
-@model FirstMVCApplication.Models.Student
+@model IEnumerable<FirstMVCApplication.Models.Student>
 
 @*<h1>Student view page</h1>
 <h2>
@@ -34,10 +34,27 @@
     </ul>
 </div>*@
 
-<div>
+@*<div>
     Student Id: @Model.Id
     <br />
     Student Name: @Model.Name
     <br />
     Student Age: @Model.Age
 </div>
+*@
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>@item.Id</td>
+    <td>@item.Name</td>
+    <td>@item.Age</td>
+</tr>
+    }
+</table>
