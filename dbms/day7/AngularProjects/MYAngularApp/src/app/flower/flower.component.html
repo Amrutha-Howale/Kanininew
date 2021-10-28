@@ -1,0 +1,53 @@
+<div class="form">
+  <div class="alert alert-success">
+      <label class="form-control">Bouquet Id</label>
+      <input type="number" class="form-control" [(ngModel)]="flower.id">
+      <label class="form-control">Bouquet Name</label>
+      <input type="text" class="form-control" [(ngModel)]="flower.name">
+      <label class="form-control">Bouquet Description</label>
+      <input type="text" class="form-control" [(ngModel)]="flower.desc">
+      <label class="form-control">Bouquet Price</label>
+      <input type="number" class="form-control" [(ngModel)]="flower.price">
+      <label class="form-control">Bouquet Quantity</label>
+      <input type="number" class="form-control" [(ngModel)]="flower.quantity">
+     <span> <button class="btn btn-primary" (click)="add(flower)">Add</button> </span>
+     <span class="btn"> <button class="btn btn-danger" (click)="clearCart()" >Reset</button> </span>
+  </div>
+  </div>
+  
+  
+  <div class="container">
+      <div class="alert alert-primary" *ngFor="let flowers of flowers">
+          
+            <p>ID: {{flowers.id}} </p>  
+              <br/>
+              <p>Name:{{flowers.name}}</p>
+              <br/>
+             <p> Description:{{flowers.desc}} </p> 
+              <br/>
+              <p> Price:{{flowers.price}} </p>  
+              <br/>
+              <p> Quantity:{{flowers.quantity}} </p>  
+              <br/>
+             
+           <span> <button class="btn btn-primary" (click)="addtocart(summary)">Add</button> </span>
+      </div>
+      </div>
+  
+      <div class="summary">
+        <div class="alert alert-primary" *ngFor="let summary of summarys">
+            
+              <p>ID: {{summary.id}} </p>  
+                <br/>
+                <p>Name:{{summary.name}}</p>
+                <br/>
+               <p> Description:{{summary.desc}} </p> 
+                <br/>
+                <p> Price:{{summary.price}} </p>  
+                <br/>
+                <p> Quantity:{{summary.quantity}} </p>  
+                <br/>
+                <span> <button class="btn btn-primary" (click)="addtocart(summary)">Add To Cart</button> </span>
+           
+        </div>
+        </div>

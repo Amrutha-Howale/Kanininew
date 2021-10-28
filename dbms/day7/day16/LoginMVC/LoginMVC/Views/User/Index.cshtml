@@ -1,0 +1,59 @@
+﻿@model LoginMVC.Models.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <style>
+       #login-div{
+           position:absolute;
+           left:40%;
+           top:40%;
+           border:1px solid #ccc;
+           padding:10px 10px;
+       }
+    </style>
+</head>
+<body>
+    <div id="login-div">
+        @using(Html.BeginForm("Authorize", "User",FormMethod.Post))
+        {
+        <table>
+            <tr>
+                <td style="text-decoration:underline;text-align:center">Login</td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(Model => Model.Id)
+                    @Html.EditorFor(Model => Model.Id)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.ValidationMessageFor(Model => Model.Id)</td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(Model => Model.Password)
+                    @Html.EditorFor(Model => Model.Password)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.ValidationMessageFor(Model => Model.Password)</td>
+            </tr>
+             
+            <tr>
+                <td>
+                    <input type="submit" value="Login" />
+                </td>
+            </tr>
+        </table>
+            }
+    </div>
+</body>
+</html>

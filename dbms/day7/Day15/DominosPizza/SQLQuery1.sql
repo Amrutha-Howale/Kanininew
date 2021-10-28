@@ -6,6 +6,7 @@ ID int Identity(100,1),
 Pizza_Name varchar(100) not null,
 price float not null,
 Pizza_Type varchar(20),
+IsVeg varchar(20), 
 Constraint pk_Pizza primary key(ID))
 
 Create table Toppings(

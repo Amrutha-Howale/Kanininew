@@ -1,0 +1,19 @@
+<div *ngFor="let employee of employees">
+    Employee Id:{{employee.id}}
+    <br/>
+    Employee Name:{{employee.name}}
+    <br/> 
+    Employee Salary:{{employee.salary}}  
+</div>
+
+<select (change)="empChange(eid.value)" #eid>
+    <option *ngFor="let employee of employees " [value]="employee.id">{{employee.id}}</option>
+</select>
+<div *ngIf="selectedEmployee.id">
+    Employee Id:{{selectedEmployee.id}}
+    <br/>
+    Employee Name:{{selectedEmployee.name}}
+    <br/>
+    Employee Salary:{{selectedEmployee.salary}}
+    <br/>
+</div>

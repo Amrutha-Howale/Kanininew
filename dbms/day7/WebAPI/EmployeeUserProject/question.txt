@@ -1,0 +1,12 @@
+Create a MVC application 
+User - > username and password 
+Employee -> emplID, Name, Age 
+
+Web API(Gateway) -> user(authentication) and employee controller(Call to the employee API) 
+call the employee API if user is authenticated
+User - > username and password 
+Employee -> emplID, Name, Age 
+
+Web API -> 
+Employee API -> Adds and lists all the employee 
+Employee -> emplID, Name, Age

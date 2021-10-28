@@ -1,0 +1,15 @@
+<p>first works!</p>
+{{name}}
+
+<input type="text" [value]="name" #txtName>
+<input type="text" [value]="age">
+
+<div [class]="StyleName" (click)="ChangeStyle(txtName)">
+    {{name}}
+</div>
+
+<input type="text" [(ngModel)]="name">
+
+<button class="btn btn-success" >Click Meeee</button>
+
+<span [class]="clsName" (click)="change()"></span>
